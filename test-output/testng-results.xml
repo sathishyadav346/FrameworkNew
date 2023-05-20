@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="282" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="282" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+      <class name="genericUtilitiesOrLibraries.SampleBaseClass">
+        <test-method status="PASS" signature="suite()[pri:0, instance:genericUtilitiesOrLibraries.SampleBaseClass@a38d7a3]" name="suite" is-config="true" duration-ms="35" started-at="2023-05-18T16:04:50 IST" finished-at="2023-05-18T16:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite -->
+        <test-method status="PASS" signature="test()[pri:0, instance:genericUtilitiesOrLibraries.SampleBaseClass@a38d7a3]" name="test" is-config="true" duration-ms="20" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="class1()[pri:0, instance:genericUtilitiesOrLibraries.SampleBaseClass@a38d7a3]" name="class1" is-config="true" duration-ms="1" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class1 -->
+        <test-method status="PASS" signature="method()[pri:0, instance:genericUtilitiesOrLibraries.SampleBaseClass@a38d7a3]" name="method" is-config="true" duration-ms="1" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:genericUtilitiesOrLibraries.SampleBaseClass@a38d7a3]" name="test1" duration-ms="31" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="AfMethod()[pri:0, instance:genericUtilitiesOrLibraries.SampleBaseClass@a38d7a3]" name="AfMethod" is-config="true" duration-ms="2" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfMethod -->
+        <test-method status="PASS" signature="AfClass()[pri:0, instance:genericUtilitiesOrLibraries.SampleBaseClass@a38d7a3]" name="AfClass" is-config="true" duration-ms="2" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfClass -->
+        <test-method status="PASS" signature="AfSuite()[pri:0, instance:genericUtilitiesOrLibraries.SampleBaseClass@a38d7a3]" name="AfSuite" is-config="true" duration-ms="4" started-at="2023-05-18T16:04:51 IST" finished-at="2023-05-18T16:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfSuite -->
+      </class> <!-- genericUtilitiesOrLibraries.SampleBaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
