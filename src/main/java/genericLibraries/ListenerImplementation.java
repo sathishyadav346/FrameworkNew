@@ -6,17 +6,12 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
-
 public class ListenerImplementation implements ITestListener {
 	public ExtentReports report;
 	public ExtentTest test;
 	
 	@Override
-	public void onStart(ITestContext context) {
+	public void onStart() {
 		ExtentSparkReporter	 spark = new ExtentSparkReporter("./ExtentReports/report.html");
 		spark.config().setTheme(Theme.STANDARD);
 		spark.config().setDocumentTitle("Vtiger CRM Extent Reports");
